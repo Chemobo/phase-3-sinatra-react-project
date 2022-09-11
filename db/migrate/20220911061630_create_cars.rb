@@ -3,5 +3,6 @@ class CreateCars < ActiveRecord::Migration[6.1]
     create_table :cars do |t|
       t.string :model
       t.integer :car_id
+    end
   end
 end
